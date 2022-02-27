@@ -1,0 +1,7 @@
+<div *ngIf="team.length" class="team-container">
+    <h3>Team {{index+1}}</h3>
+    <ul *ngFor="let member of team" class="list">
+    <li>{{member}}</li>
+    </ul>
+    {{date | date}}
+</div>
